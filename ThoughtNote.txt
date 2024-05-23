@@ -1,0 +1,20 @@
+This project of Twitter clone is created using various technologies, I have used the following languages and frameworks:
+- Frontend -> React.js 
+- Backend -> Node.js + Express.js 
+- Database -> MongoDB
+
+The models is used to define the schema so that user can perform various tasks, where user data will be stored in database as well as the tasks performed by the user will also be performed by the user such as like, dislike etc. which will get stored in the database.
+
+Routes for CRUD Operations:
+Creating a Tweet: POST endpoint for creating new tweets, allowing users to share content along with optional images.
+Liking/Disliking a Tweet: POST endpoints for liking and disliking tweets, ensuring users can interact with tweets by adding or removing their likes.
+Replying to a Tweet: POST endpoint for replying to a tweet, enabling users to engage in conversations by replying to existing tweets.
+Retweeting a Tweet: POST endpoint for retweeting a tweet, allowing users to share tweets with their followers.
+Getting Tweet Details: GET endpoints for retrieving details of a single tweet or all tweets, with populated user data for the author, likes, retweets, and replies.
+Deleting a Tweet: DELETE endpoint for deleting tweets, ensuring users can manage their own content.
+
+Middleware ensures that the requests have proper parsing and preparation. Middleware centralizes error handling logic, enhancing consistency in error responses across routes, it also promotes code reusability by allowing the same middleware functions to be applied to multiple routes, reducing duplication. Middleware plays a vital role in authentication, validations, ensuring authentication and much more.
+
+The pages are being created so that user interaction is minimal and the application has a clean UI/UX design. The front end uses React so that code can be reused again and again. 
+Comments are being added so that user can understand everything i.e. code easily.
+**The overall project backend and frontend works fine but the connection is not being made between them. 

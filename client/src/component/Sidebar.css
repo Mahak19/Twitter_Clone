@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Right Side CSS */
+.custom-submit-btn{
+    height: 30px;
+    width: 80px;
+    background-color: blueviolet;
+    color: black;
+    border-radius: 5%;
+    border: none;
+    float: inline-end;
+}
+
+.custom-submit-btn:hover{
+    background-color: black;
+    color: blueviolet;
+}
+
+.inner-card{
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13px;
+    height: 20rem;
+    margin-bottom: 13px;
+}
+
+.image{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.number{
+    color: black;
+    margin-left: 2px;
+    margin-right: 11px;
+}
+
+.retweet_row{
+    margin-left: 30px;
+}
+
+.light_text{
+    opacity: 0.5;
+}
+
+.custom_id_height{
+    margin-top: -3px;
+    font-size: smaller;
+}
+
+.custom_text_height{
+    margin-top: -7px;
+    font-size: smaller;
+}
+
+.custom_icons_height{
+    margin-bottom: -6px;
+    margin-top: -7px;
+    margin-top: 5px;
+    font-size: smaller;
+}
+
+.picture{
+    height: 14rem;
+    width: 20rem;
+    margin-top: -7px;
+    
+}
+
+.main_icons{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.custom_css_for_main_card_right_side{
+    width: 33rem;
+}
+
+.icon_color{
+    color: black;
+}
+
+
+/* Left Side CSS */
+
+body {font-family: "Lato", sans-serif;}
+.sidebar_font{
+    font-family: "Loto", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: aqua;
+  border-radius: 20px;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+.profile_image_left_bottom{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-top: -7rem;
+}
+.text{
+    margin-top: -120px;
+    margin-left: 6px;
+    color: black;
+    font-weight: 900;
+}
+
+.textmain{
+    text-decoration: none;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+    
+  }

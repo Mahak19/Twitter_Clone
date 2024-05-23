@@ -1,0 +1,70 @@
+.box{
+    background-color:lightskyblue;
+    height:10rem;
+    width: auto;
+}
+
+.profile_name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.profile_image{
+    height: 140px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -70px;
+    margin-left: 10px;
+}
+
+.upload{
+    border-radius: 5px;
+    color: rgb(57, 125, 220);
+    background-color: white;
+    height: 40px;
+    width: 190px;
+    border: 2px solid rgb(57, 125, 220);
+    margin-top: 9px;
+}
+
+.upload:hover{
+    background-color: rgb(57, 125, 220);
+    color: white;
+}
+
+.edit{
+    border-radius: 5px;
+    color: gray;
+    background-color: white;
+    height: 40px;
+    width: 50px;
+    border: 2px solid gray;
+    margin-top: 9px;
+    margin-left: 20px;
+}
+
+.edit:hover{
+    background-color: gray;
+    color: white;
+}
+
+.location{
+    display: inline;
+}
+
+.image{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+/* Upload Profile Pic */
+.file_upload{
+    border: 1px solid gray;
+    width: 465px;
+    border-radius: 5px;
+}
+
+.choose_file{
+    border: none;
+}
